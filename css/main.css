@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Grand+Hotel|Great+Vibes|Palanquin+Dark');
 
+@media all and (max-width: 550px) {
+    #container {
+        margin: 0 auto;
+    }
+}
+
 #container {
     max-width: 625px;
     margin: 25px auto;
@@ -10,6 +16,7 @@ h1 {
     font-family: 'Grand Hotel', cursive;
 }
 
+h4,
 p {
     font-family: 'Palanquin Dark', sans-serif;
 }

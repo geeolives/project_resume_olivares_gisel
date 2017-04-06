@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Grand+Hotel|Great+Vibes|Palanquin+Dark');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Grand+Hotel|Source+Sans+Pro|Palanquin+Dark');
 
 @media all and (max-width: 550px) {
     #container {
@@ -12,11 +12,17 @@
     padding: 25px 0;
 }
 
-h1 {
+h1{
     font-family: 'Grand Hotel', cursive;
 }
 
+h3,
 h4,
-p {
+h5 {
     font-family: 'Palanquin Dark', sans-serif;
+}
+
+p,
+li {
+    font-family: 'Source Sans Pro', sans-serif;
 }

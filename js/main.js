@@ -7,3 +7,15 @@ $(document).ready(function () {
         $(this).attr('src', 'img/email.png');
     });
 });
+
+$('.linkedin').hover(function () {
+		$(this).attr('src', 'img/linkedinhover.png');
+}, function () {
+		$(this).attr('src', 'img/linkedin.png');
+});
+
+$('.tumblr').hover(function () {
+		$(this).attr('src', 'img/tumblrhover.png');
+}, function () {
+		$(this).attr('src', 'img/tumblr.png');
+});

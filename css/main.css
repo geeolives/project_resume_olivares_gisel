@@ -67,3 +67,19 @@ li {
         margin-left: 0;
     }
 }
+
+.content {
+    padding: 5px;
+}
+
+img.logo {
+    float: left;
+}
+
+a {
+    color: hotpink;
+}
+
+a:hover {
+    color: #b666d2;
+}

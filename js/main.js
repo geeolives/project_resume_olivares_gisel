@@ -35,3 +35,9 @@ $('article').flowtype({
 });
 
 // second jQuery plugin
+$(document).ready(function () {
+    $('rotate').textrotator({
+        animation: 'fade',
+        speed: 1000
+    });
+});

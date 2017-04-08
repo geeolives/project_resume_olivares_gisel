@@ -34,10 +34,10 @@ $('article').flowtype({
     fontRatio: 36
 });
 
-// second jQuery plugin
+// second jQuery plugin is supposed to rotate text, but doesn't
 $(document).ready(function () {
     $('rotate').textrotator({
-        animation: 'fade',
+        animation: 'spin',
         speed: 1000
     });
 });

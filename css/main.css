@@ -6,6 +6,10 @@
     }
 }
 
+body {
+    font-size: 18px;
+}
+
 #container {
     max-width: 1000px;
     margin: 25px auto;
@@ -35,12 +39,14 @@
 
 h1 {
     font-family: 'Grand Hotel', cursive;
+    line-height: 1.45;
 }
 
 h3,
 h4,
 h5 {
     font-family: 'Palanquin Dark', sans-serif;
+    line-height: 1.45;
 }
 
 p,
